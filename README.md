@@ -36,3 +36,12 @@ The pipeline for training a new model is:
 
 ```Analysis.ipynb``` contains the analysis. Make sure the parameters from ```Generate_Data.ipynb``` that define the material are the same in this file, if changed. 
 
+For using MAMBA on experimental data, the changes are:
+
+1. Adding a partially ocupied rough surface atop the film.
+2. Changing the training grid in reciprocal space
+
+For the rough surface, I've included two files: ```Generate_Data_rough.ipynb``` and ```Analysis_rough.ipynb``` which generate and analyze rough films respectively. The training file is the same, as it is agnostic to the nature of the film. I have not included the pre-trained weights and test data for this, so ```Analysis_rough.ipynb``` cannot be run directly from cloning this repo.
+
+
+
