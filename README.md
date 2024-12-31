@@ -1,16 +1,18 @@
 # Machine Learning for Material Bragg-rod Analysis (MAMBA)
-Epitaxial thin film structure prediction with a U-Net
 
+The repository contains the files needed for doing MAMBA on a 12-layer film. Below are instructions to:
+1. Just run the analysis file for the 12 layer film with the pre-trained model and data
+2. The process for training a model on a new type of film
 
 ### 1. Just Running the Analysis File:
 
-Run these two commands first:
+The analysis file is 
+```
+Analysis.ipynb
+```
 
-```
-ssh lxplus-gpu
-source /cvmfs/sft.cern.ch/lcg/views/LCG_103cuda/x86_64-centos9-gcc11-opt/setup.sh
-```
 To run the training script:
+
 ```
 python3 cc_v1_train_t0p1_nloss.py
 ```
