@@ -13,6 +13,8 @@ The trained model weights are already included: ``` unet_12L_100k_30e_real.h5, u
 
 The training data is too large to include in this repository, but only the test data is needed for analysis. The ground truth fields are included in the files ``` x_test_12L_100k.npy, y_test_imag_12L_100k.npy, y_test_real_12L_100k.npy ```
 
+The files containing the data to undo normalization for training are ``` means_imag_12L_100k.npy, std_imag_12L_100k.npy, etc. ```
+
 The ground truth atomic positions are included in the files ``` all_cns_12L_100k.npy, all_o1s_12L_100k.npy, etc. ```
 
 To run the analysis file, just run all the notebook cells sequentially. The fourier transform part for the test data takes about 20 minutes to run. For furture analysis if it is needed, these can just be calculated once and saved.
