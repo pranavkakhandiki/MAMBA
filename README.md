@@ -43,5 +43,8 @@ For using MAMBA on experimental data, the changes are:
 
 For the rough surface, I've included two files: ```Generate_Data_rough.ipynb``` and ```Analysis_rough.ipynb``` which generate and analyze rough films respectively. The training file is the same, as it is agnostic to the nature of the film. I have not included the pre-trained weights and test data for this, so ```Analysis_rough.ipynb``` cannot be run directly from cloning this repo.
 
+To change the training grid in reciprocal space, change the mesh grid, defined in the data generation file as ```[qx, qy, qz] = np.meshgrid(x, y, z)```. 
+
+```qx```, `qy`, and `qz`
 
 
