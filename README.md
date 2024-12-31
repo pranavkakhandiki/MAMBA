@@ -30,4 +30,6 @@ The pipeline for training a new model is:
 
 3. Analyze the results with ```Analysis.ipynb```
 
+```Generate_Data.ipynb``` generates 100,000 training CTRs/E-fields, with an additional 1000 for testing (since ```train_size = 100000 ```). The parameters that define the material are all defined at the top of the file. In addition one can change the percent the atoms are varied, ```v_r```, and the amount in Angstroms the c-spacing is varied, ```v_c```
+
 
