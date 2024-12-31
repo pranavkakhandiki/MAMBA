@@ -4,6 +4,7 @@ The repository contains the files needed for doing MAMBA on a 12-layer film. Bel
 1. Just run the analysis file for the 12 layer film with the pre-trained model and data
 2. The process for training a model on a new type of film (more or less layers, rough surface, etc.)
 
+
 ### 1. Just Running the Analysis File:
 
 The analysis file is ```Analysis.ipynb```
@@ -14,5 +15,8 @@ The training data is too large to include in this repository, but only the test 
 
 The ground truth atomic positions are included in the files ``` all_cns_12L_100k.npy, all_o1s_12L_100k.npy, etc. ```
 
-To run the analysis file, just run all the notebook cells. The fourier transform part for the test data takes about 20 minutes to run. For furture analysis if it is needed, these can just be calculated once and saved.
+To run the analysis file, just run all the notebook cells sequentially. The fourier transform part for the test data takes about 20 minutes to run. For furture analysis if it is needed, these can just be calculated once and saved.
+
+
+### 2. Training a New Model:
 
