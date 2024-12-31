@@ -22,3 +22,12 @@ To run the analysis file, just run all the notebook cells sequentially. The four
 
 ### 2. Training a New Model:
 
+The pipeline for training a new model is:
+
+1. Generate training/test data with ```Generate_Data.ipynb```
+
+2. Train a model and save the weights with  ```Train.ipynb```
+
+3. Analyze the results with ```Analysis.ipynb```
+
+
