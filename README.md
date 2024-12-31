@@ -45,6 +45,6 @@ For the rough surface, I've included two files: ```Generate_Data_rough.ipynb``` 
 
 To change the training grid in reciprocal space, change the mesh grid, defined in the data generation file as ```[qx, qy, qz] = np.meshgrid(x, y, z)```. 
 
-```qx```, `qy`, and `qz`
+`qx`, `qy`, and `qz` will then have to be changed according to the experimentally measured grid, and the rest can be the same. For analysis, some interpolation to match a more regularly spaced grid may be required, given the way the fourier transform is currently coded. But I'm sure there is a way to fourier transform accurately on an irregular grid too.
 
 
