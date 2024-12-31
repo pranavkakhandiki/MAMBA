@@ -2,27 +2,13 @@
 
 The repository contains the files needed for doing MAMBA on a 12-layer film. Below are instructions to:
 1. Just run the analysis file for the 12 layer film with the pre-trained model and data
-2. The process for training a model on a new type of film
+2. The process for training a model on a new type of film (more or less layers, rough surface, etc.)
 
 ### 1. Just Running the Analysis File:
 
-The analysis file is 
-```
-Analysis.ipynb
-```
+The analysis file is ```Analysis.ipynb```
+The trained model weights are already included: ``` unet_12L_100k_30e_real.h5, unet_12L_100k_30e_imag.h5 ```
+There are two trained models (one for the real, and one for the imaginary component of the field)
 
-To run the training script:
+The training data is too large to include in this repository, but only the test data is needed for analysis. The ground truth fields are included in the files ``` x_test_12L_100k.npy, y_test_imag_12L_100k.npy, y_test_real_12L_100k.npy ```
 
-```
-python3 cc_v1_train_t0p1_nloss.py
-```
-To run the inference script, specify the input director, model directory, and output directory. For example, to run the script for two pions:
-
-```
-python3 cc_v1_infer_t0p1_nloss.py --ipath /eos/project/c/contrast/public/solar/data/20230214_two_pions/val --mpath /eos/project/c/contrast/public/solar/models/20230214_two_pions/ --opath /eos/project/c/contrast/public/solar/output/20230214_two_pions/
-```
-
-or to run it for one specific file, which has been put in the trackster_val_testData folder:
-```
-python3 cc_v1_infer_t0p1_nloss.py --ipath /eos/project/c/contrast/public/solar/data/20230214_two_pions/trackster_val_testData --mpath /eos/project/c/contrast/public/solar/models/20230214_two_pions/ --opath /eos/project/c/contrast/public/solar/output/20230214_two_pions/
-```
