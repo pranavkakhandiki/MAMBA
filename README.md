@@ -14,3 +14,5 @@ The training data is too large to include in this repository, but only the test 
 
 The ground truth atomic positions are included in the files ``` all_cns_12L_100k.npy, all_o1s_12L_100k.npy, etc. ```
 
+To run the analysis file, just run all the notebook cells. The fourier transform part for the test data takes about 20 minutes to run. For furture analysis if it is needed, these can just be calculated once and saved.
+
