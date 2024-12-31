@@ -7,8 +7,10 @@ The repository contains the files needed for doing MAMBA on a 12-layer film. Bel
 ### 1. Just Running the Analysis File:
 
 The analysis file is ```Analysis.ipynb```
-The trained model weights are already included: ``` unet_12L_100k_30e_real.h5, unet_12L_100k_30e_imag.h5 ```
-There are two trained models (one for the real, and one for the imaginary component of the field)
+
+The trained model weights are already included: ``` unet_12L_100k_30e_real.h5, unet_12L_100k_30e_imag.h5 ``` There are two trained models (one for the real, and one for the imaginary component of the field)
 
 The training data is too large to include in this repository, but only the test data is needed for analysis. The ground truth fields are included in the files ``` x_test_12L_100k.npy, y_test_imag_12L_100k.npy, y_test_real_12L_100k.npy ```
+
+The ground truth atomic positions are included in the files ``` all_cns_12L_100k.npy, all_o1s_12L_100k.npy, etc. ```
 
