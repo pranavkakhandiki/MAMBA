@@ -4,6 +4,9 @@ The repository contains the files needed for doing MAMBA on a 12-layer film. Bel
 1. Just run the analysis file for the 12 layer film with the pre-trained model and data
 2. The process for training a model on a new type of film (more or less layers, rough surface, etc.)
 
+First clone the repository:
+```git clone https://github.com/pranavkakhandiki/MAMBA.git```
+
 
 ### 1. Just Running the Analysis File:
 
