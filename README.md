@@ -1,8 +1,6 @@
 # Machine Learning for Material Bragg-rod Analysis (MAMBA)
 
-The Neur-IPS/Ai4Mat conference paper can be found here: https://openreview.net/pdf?id=sgwsZ3PqX7
-
-[check out the paper here!](https://openreview.net/pdf?id=sgwsZ3PqX7)
+The Neur-IPS/Ai4Mat conference paper can be found [here]!(https://openreview.net/pdf?id=sgwsZ3PqX7)
 
 The repository contains the files needed for doing MAMBA on a 12-layer film. Below are instructions to:
 1. Just run the analysis file for the 12 layer film with the pre-trained model and data
